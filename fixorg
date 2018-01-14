@@ -1,0 +1,5 @@
+#!/bin/bash
+for file in $HOME/txt/*/*.org
+do
+ mv "$file" "${file%.org}.txt"
+done
